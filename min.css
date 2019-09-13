@@ -1,0 +1,58 @@
+html{
+  background-color: #272b35;
+}
+
+body {
+  margin: 0px;
+  user-select: none;
+  -moz-user-select: none;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.bookmarks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 44%;
+}
+
+.square {
+  padding: 0.4em;
+  font-family: Ubuntu Mono;
+  font-size: 1rem;
+  width: 100%;
+  height: 20em;
+  margin: 0em .5em;
+  text-align: center;
+}
+
+.square-header {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fff;
+  margin: 0em 0em .35em 0em;
+}
+
+.square-body {
+  vertical-align: top;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #8c8c8b;
+  display: block;
+  margin: .5em 0em;
+}
+
+a:hover {
+  color: #fff;
+}
